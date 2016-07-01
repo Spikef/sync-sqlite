@@ -2,7 +2,7 @@
   "name": "sync-sqlite",
   "version": "1.0.0",
   "description": "SQLite operation based on sql.js.",
-  "main": "index.js",
+  "main": "lib/sqlite.js",
   "author": {
     "name": "Spikef",
     "email": "Spikef@foxmail.com"
@@ -31,6 +31,7 @@
     "coveralls": "^2.11.9",
     "istanbul": "^0.4.4",
     "mocha": "^2.5.3",
+    "mocha-lcov-reporter": "^1.2.0",
     "uglify-js": "^2.6.4"
   }
 }
