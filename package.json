@@ -1,0 +1,36 @@
+{
+  "name": "sync-sqlite",
+  "version": "1.0.0",
+  "description": "SQLite operation based on sql.js.",
+  "main": "index.js",
+  "author": {
+    "name": "Spikef",
+    "email": "Spikef@foxmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Spikef/sync-sqlite.git"
+  },
+  "keywords": [
+    "sqlite",
+    "database",
+    "sql.js",
+    "sync"
+  ],
+  "scripts": {
+    "test": "./node_modules/.bin/mocha test",
+    "cover": "./node_modules/.bin/istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage",
+    "build": "node build"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "sql.js": "^0.3.2"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "coveralls": "^2.11.9",
+    "istanbul": "^0.4.4",
+    "mocha": "^2.5.3",
+    "uglify-js": "^2.6.4"
+  }
+}
