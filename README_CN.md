@@ -1,5 +1,12 @@
 # sync-sqlite
 
+[![Build Status](https://travis-ci.org/Spikef/sync-sqlite.svg?branch=master)](https://travis-ci.org/Spikef/sync-sqlite)
+[![Coverage Status](https://coveralls.io/repos/github/Spikef/sync-sqlite/badge.svg)](https://coveralls.io/github/Spikef/sync-sqlite)
+[![NPM Version](http://img.shields.io/npm/v/sync-sqlite.svg?style=flat)](https://www.npmjs.org/package/sync-sqlite)
+[![NPM Downloads](https://img.shields.io/npm/dm/sync-sqlite.svg?style=flat)](https://www.npmjs.org/package/sync-sqlite)
+
+[Click here to read the English document](https://github.com/Spikef/sync-sqlite/blob/master/README.md)
+
 基于`sql.js`模块封装的SQLite数据库操作模块。
 
 ## Install
