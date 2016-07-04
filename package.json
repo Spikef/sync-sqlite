@@ -1,6 +1,6 @@
 {
   "name": "sync-sqlite",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "SQLite operation based on sql.js.",
   "main": "lib/sqlite.js",
   "author": {
